@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ТИГР ВИЗУАЛ</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Arial,sans-serif;color:#fff;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 18%,rgba(155,89,255,.28),transparent 30%),linear-gradient(135deg,#09090e,#17111f 55%,#09090e);overflow:hidden}
+.bg{position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(circle,rgba(183,140,255,.35) 1px,transparent 1px);background-size:42px 42px;opacity:.22}
+.card{width:min(92vw,720px);padding:44px 30px 34px;text-align:center;border:1px solid rgba(176,125,255,.35);border-radius:28px;background:rgba(19,18,28,.86);box-shadow:0 0 70px rgba(132,72,255,.22);backdrop-filter:blur(16px);position:relative}
+.tiger{width:118px;height:118px;margin:0 auto 22px;border-radius:50%;display:grid;place-items:center;font-size:62px;background:radial-gradient(circle,#b985ff 0%,#6b28c8 42%,#241039 72%,#100b18 100%);box-shadow:0 0 45px rgba(155,89,255,.65);border:2px solid rgba(216,190,255,.55)}
+h1{margin:0;font-size:clamp(40px,8vw,68px);letter-spacing:3px;text-shadow:0 0 25px rgba(182,130,255,.65)}
+.sub{margin:10px 0 22px;color:#d7c3f6;font-size:17px}
+.badge{display:inline-block;padding:7px 14px;border-radius:999px;background:rgba(155,89,255,.14);border:1px solid rgba(155,89,255,.35);color:#d9c7ff;margin-bottom:26px}
+.buttons{display:grid;gap:14px;max-width:380px;margin:0 auto}
+.download{display:block;padding:15px 20px;border-radius:14px;text-decoration:none;color:#fff;font-weight:700;font-size:17px;background:linear-gradient(135deg,#9b59ff,#6d2bd4);box-shadow:0 0 28px rgba(155,89,255,.4);transition:.18s}
+.download:hover{transform:translateY(-2px);box-shadow:0 0 38px rgba(155,89,255,.6)}
+.note{margin-top:20px;color:#9d95a9;font-size:13px;line-height:1.5}
+footer{margin-top:26px;color:#777080;font-size:12px}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<main class="card">
+<div class="tiger">🐯</div>
+<h1>ТИГР ВИЗУАЛ</h1>
+<div class="sub">Легальный визуальный мод для Minecraft Java</div>
+<div class="badge">Fabric • 1.21.1 • 1.21.11</div>
+<div class="buttons">
+<a class="download" href="downloads/TigerVisual-1.21.1.jar" download>Скачать Tiger Visual — 1.21.1</a>
+<a class="download" href="downloads/TigerVisual-1.21.11.jar" download>Скачать Tiger Visual — 1.21.11</a>
+</div>
+<div class="note">Это тестовые сборки загрузчика. Полный GUI Tiger Visual ещё находится в разработке.</div>
+<footer>ТИГР ВИЗУАЛ • Visual • HUD • Performance • Utility</footer>
+</main>
+</body>
+</html>
